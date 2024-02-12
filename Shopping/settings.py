@@ -38,9 +38,20 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Admin',
+    'Blog',
+    'Categories',
+    'Home',
+    'Hot_Offers',
+    'Jewelry',
+    'Mens',
+    'Perfume',
+    'Seller',
+    'womens',
 ]
 
 MIDDLEWARE = [
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
